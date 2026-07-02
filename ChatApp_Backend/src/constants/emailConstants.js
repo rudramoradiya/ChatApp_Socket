@@ -1,4 +1,4 @@
-const DEFAULT_FROM = "ishamoradiya10@gmail.com";
+const DEFAULT_FROM = process.env.EMAIL_USER;
 
 const EMAIL_SUBJECT = {
   VERIFICATION_EMAIL: "Verification Email From Storage Rental App",
